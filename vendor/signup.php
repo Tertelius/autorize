@@ -15,6 +15,8 @@
         $_SESSION['message'] = 'пароли не совпадают';
         header('Location: ../register.php');
     }
+    
+    //sd
 ?>
 
 <!--<pre>
