@@ -10,6 +10,7 @@
     $avatar = htmlspecialchars($_POST['avatar']);
     
     if ($password === $password_confirm) {
+        //Продолжаем работу
         
     } else {
         $_SESSION['message'] = 'пароли не совпадают';
