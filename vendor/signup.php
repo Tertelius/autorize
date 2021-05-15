@@ -10,7 +10,8 @@
     $avatar = htmlspecialchars($_POST['avatar']);
     
     if ($password === $password_confirm) {
-        //Продолжаем работу
+        // Пароли совпадают, продолжаем работу и первым делом грузим картинку.
+        
         
     } else {
         $_SESSION['message'] = 'пароли не совпадают';
@@ -20,10 +21,10 @@
     //sd
 ?>
 
-<!--<pre>
+<pre>
     <?php
         print_r( $_FILES );
     ?>
-</pre>-->
+</pre>
 
 
