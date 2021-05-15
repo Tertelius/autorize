@@ -31,13 +31,13 @@
             <label>Подтверждение пароля: </label>
             <input type="password" name="password_confirm" placeholder="Подтвердите пароль">
             
-            <button>Войти</button>      
+            <button>Регистрация</button>      
             <p>
                 У вас уже есть аккаунт? - <a href="/">Войти</a>
             </p>
             <?php
                 //если есть сообщение то
-                if ($_SESSION['message']){
+                if (isset($_SESSION['message'])){
                     //выводим сообщение и сразу же его уничтожаем
                     echo '<p class="message">' . $_SESSION['message'] . '</p>';
                     unset($_SESSION['message']);
