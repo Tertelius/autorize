@@ -9,6 +9,8 @@
         <title>Регистрация</title>
         <link rel="stylesheet" href="asssets/css/main.css">
     </head>
+    
+    
     <body>
         <!--форма регистрации-->
         
